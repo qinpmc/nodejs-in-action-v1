@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16d1838-c080-4c0c-8a18-a83b486f4bb7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4/fs1/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4/fs1/test1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4/表单4/form1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4/表单5/form2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/README.md" afterPath="$PROJECT_DIR$/ch4/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/http2/http.js" afterPath="$PROJECT_DIR$/ch4/http2/http.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4/fs1/fs.js" afterPath="$PROJECT_DIR$/ch4/fs3/fs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4/fs1/test1.txt" afterPath="$PROJECT_DIR$/ch4/fs3/test1.txt" />
     </list>
     <ignored path="nodejs in action-v1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,12 +27,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="fs.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch4/fs1/fs.js">
+      <file leaf-file-name="form2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4/表单5/form2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21524663">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="0.6394231">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+              <folding>
+                <marker date="1546495404775" expanded="true" signature="493:944" placeholder="..." />
+                <marker date="1546495404775" expanded="true" signature="537:937" placeholder="..." />
+                <marker date="1546495404775" expanded="true" signature="584:687" placeholder="..." />
+                <marker date="1546495404775" expanded="true" signature="760:930" placeholder="..." />
+                <marker date="1546495404775" expanded="true" signature="875:912" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +72,8 @@
         <option value="$PROJECT_DIR$/ch4/http2/http.js" />
         <option value="$PROJECT_DIR$/ch4/fs1/test1.txt" />
         <option value="$PROJECT_DIR$/ch4/fs1/fs.js" />
+        <option value="$PROJECT_DIR$/ch4/表单4/form1.js" />
+        <option value="$PROJECT_DIR$/ch4/表单5/form2.js" />
       </list>
     </option>
   </component>
@@ -75,10 +83,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="456" />
+    <option name="x" value="60" />
+    <option name="y" value="181" />
     <option name="width" value="1922" />
-    <option name="height" value="637" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -153,7 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fs1" />
+              <option name="myItemId" value="表单5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,7 +260,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="456" width="1922" height="637" extended-state="0" />
+    <frame x="60" y="181" width="1922" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -501,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/fs1/test1.txt">
+    <entry file="file://$PROJECT_DIR$/ch4/fs3/test1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
@@ -528,11 +536,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/fs1/fs.js">
+    <entry file="file://$PROJECT_DIR$/ch4/表单4/form1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21524663">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.12485414">
+          <caret line="30" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1546487604167" expanded="true" signature="496:719" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="496:766" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="496:900" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="496:914" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="540:719" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="595:719" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="766:820" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="766:900" placeholder="..." />
+            <marker date="1546487604167" expanded="true" signature="839:878" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/fs3/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/表单5/form2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6394231">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <marker date="1546495404775" expanded="true" signature="493:944" placeholder="..." />
+            <marker date="1546495404775" expanded="true" signature="537:937" placeholder="..." />
+            <marker date="1546495404775" expanded="true" signature="584:687" placeholder="..." />
+            <marker date="1546495404775" expanded="true" signature="760:930" placeholder="..." />
+            <marker date="1546495404775" expanded="true" signature="875:912" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
