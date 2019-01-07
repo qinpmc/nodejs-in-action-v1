@@ -27,6 +27,7 @@ function show(res){
         +"</ul>"
         +"<form method='post' action='/' enctype='multipart/form-data'>"
         +"<p><input type='text' name='name'></p>"
+        +"<p><input type='password' name='pwd'></p>"
         +"<p><input type='file' name='file'></p>"
         +"<p><input type='submit' value='Upload'>"
         +"</form></body></html>";
@@ -43,19 +44,25 @@ function upload(req,res){
     }
     var form = new formidable.IncomingForm();
     form.on("field",function(field,value){
+/*        console.log("field................");
         console.log(field);
-        console.log(value);
+        console.log(value);*/
     })
     form.on("file",function(name,file){
+/*        console.log("file................");
         console.log(name);
-        console.log(file);
+        console.log(file);*/
     });
     form.on("end",function(){
-        res.end("over")
+        res.end("over.................");
     });
     form.parse(req,function(err,fields,files){
         console.log(fields);
         console.log(files);
+    });
+    form.on("progress",function(bytesReceived,bytesExpected){
+        var percent = Math.floor(bytesReceived/bytesExpected*100);
+        console.log(percent);
     })
 }
 function isFormData(req){
