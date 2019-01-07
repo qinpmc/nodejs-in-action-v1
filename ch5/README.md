@@ -2,3 +2,4 @@
 
 ### 1 内部存储
 
+node --inspect-brk 
