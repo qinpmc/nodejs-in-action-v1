@@ -14,22 +14,21 @@ exports.parseReceivedData = function(req,cb){
     });
     req.on("end",function(){
         var data = qs.parse(body);
-        cb(data);
+        cb(data,req);
     })
 };
 exports.actionForm = function(id,path,label){
     var html = "<form method='POST' action='"+path +"'>"
     + "<input type='hidden' name='id' value='"+id+"'>"
     + "<input type='submit' value='"+label+"'>"
-    + "</form>";
-    return html;
+    + "</form>"
 }
 exports.add = function(db,req,res){
     exports.parseReceivedData(req,function(work){
         db.query(
-            "insert into work (hours,date,description,archived)"
-            + "values(?,?,?,?)",
-            [work.hours,work.date,work.description,work.archived],
+            "insert into work (hours,date,description )"
+            + "values(?,?,?)",
+            [work.hours,work.date,work.description],
             function(err){
                 if(err) throw err;
                 exports.show(db,res);
@@ -40,9 +39,11 @@ exports.add = function(db,req,res){
 
 exports.delete = function(db,req,res){
     exports.parseReceivedData(req,function(work){
+        var urls = req.url.split("?");
+        var idObj = qs.parse(urls[1]);
         db.query(
             "delete from work where id=?",
-            [work.id],
+            [idObj.id],
             function(err){
                 if(err) throw err;
                 exports.show(db,res);
@@ -92,6 +93,7 @@ exports.workHitlistHtml = function(rows){
         html += "<td>"+rows[i].date+"</td>";
         html += "<td>"+rows[i].hours+"</td>";
         html += "<td>"+rows[i].description+"</td>";
+        html += "<td>"+"<a href='/delete?id="+rows[i].id+"' >删除</a>"+"</td>";
         if(!rows[i].archived){
             html+="<td>"+ exports.workArchiveForm(rows[i].id)+"</td>";
         }
@@ -107,7 +109,6 @@ exports.workFormHtml = function(){
     + "<p>Hours worked:<br><input name='hours' type='text'></p>"
     + "<p>Description:</p>"
     + "<p> <textarea name='description'></textarea></p>"
-     + "<p>Archived:<br><input name='archived' type='text'> </p>"
     + "<input type='submit' value='Add'>"
     + "</form>";
     return html;

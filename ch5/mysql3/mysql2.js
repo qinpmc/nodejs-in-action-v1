@@ -19,15 +19,23 @@ var server = http.createServer(function(req,res){
                 case "/archive":
                     work.archive(db,req,res);
                     break;
-                case "/delete":
-                    work.delete(db,req,res);
-                    break;
+
             }
             break;
         case "GET":
-            switch (req.url){
+            var index = req.url.indexOf("?");
+            if(index!=-1){
+                var newUrl = req.url.substring(0,index);
+            }else{
+                newUrl = req.url;
+            }
+            switch (newUrl){
+
                 case "/":
                     work.show(db,res);
+                    break;
+                case "/delete":
+                    work.delete(db,req,res);
                     break;
                 case "/archived":
                     work.showArchived(db,res);
