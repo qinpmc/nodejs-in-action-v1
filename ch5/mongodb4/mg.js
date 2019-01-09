@@ -10,6 +10,29 @@ var url = 'mongodb://localhost:27017';
 // Database Name
 var dbName = 'test';
 
+
+var insertDocuments = function(db, callback) {
+    // Get the documents collection
+    var collection = db.collection('test');
+    // Insert some documents
+    collection.insertMany([
+        {a : 1}, {a : 2}, {a : 3}
+    ], function(err, result) {
+
+        console.log("Inserted 3 documents into the collection");
+        callback(result);
+    });
+}
+
+const findDocuments = function(db, callback) {
+    // Get the documents collection
+    var collection = db.collection('test');
+    // Find some documents
+    collection.find({}).toArray(function(err, docs) {
+        console.log(docs);
+        callback(docs);
+    });
+}
 var server = http.createServer(function(req,res){
     switch (req.method){
         case "POST":
@@ -36,16 +59,27 @@ var server = http.createServer(function(req,res){
                             console.log("ok....................")
                         })
                     })*/
-                    MongoClient.connect(url, function(err, client) {
+                    MongoClient.connect(url, {useNewUrlParser:true},function(err, client) {
                         console.log("Connected successfully to server");
 
                         const db = client.db(dbName);
+                        findDocuments(db, function() {
+                            client.close();
+                        });
 
-                        client.close();
                     });
                     break;
-                case "/archived":
-                    work.showArchived(client,res);
+                case "/add":
+                    //work.showArchived(client,res);
+
+                    MongoClient.connect(url,{useNewUrlParser:true}, function(err, client) {
+                        var db = client.db(dbName);
+                        insertDocuments(db, function() {
+                            client.close();
+                        });
+                    });
+
+
             }
             break;
     }

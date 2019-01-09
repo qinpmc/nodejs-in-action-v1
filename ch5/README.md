@@ -2,4 +2,6 @@
 
 ### 1 内部存储
 
-node --inspect-brk 
+node --inspect-brk
+
+chrome://inspect/#devices
