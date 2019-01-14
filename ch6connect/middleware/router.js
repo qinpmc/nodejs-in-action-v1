@@ -13,7 +13,7 @@ module.exports = function route(obj){
             var fn = routes[path];
             //path = path.replace(/\//g,"\\/").replace(/:(\w+)/g,"([^\\/]+)");  //   /users --->  \/users     /user/:id  ---> \/user\/([^\/]+)
             path = path.replace(/:(\w+)/g,"([^\\/]+)");  //   /users --->  \/users     /user/:id  ---> \/user\/([^\/]+)
-            var re = new RegExp("^"+path+"$");  //     /^\/users$/       /^\/user\/([^\/]+)$/  
+            var re = new RegExp("^"+path+"$");  //     /^\/users$/       /^\/user\/([^\/]+)$/
             var captures = url.pathname.match(re);
             if(captures){
                 var args = [req,res].concat(captures.slice(1));
