@@ -19,6 +19,8 @@ var favicon = require('serve-favicon')
 var path = require('path');
 
 var app = connect();
+
+//firefox 浏览器有小图标效果，chrome没效果
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(function(req,res,next){
         res.end("ok");

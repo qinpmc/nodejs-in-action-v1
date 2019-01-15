@@ -3,6 +3,8 @@ var connect = require("connect");
 var bodyParser = require("body-parser");
 var getRawBody = require("raw-body");
 
+
+//搭配 limit4.js 同时运行
 var app = connect()
     //.use(connect.limit("32kb")) // 已过时 使用 raw-body替代
     .use(function(req, res, next){

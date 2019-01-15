@@ -1,5 +1,5 @@
 var connect = require("connect");
-var morgan = require("morgan");
+var morgan = require("morgan"); // 替代logger
 var urlModule = require("url");
 
 function hello(req,res,next){
