@@ -2,19 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c16d1838-c080-4c0c-8a18-a83b486f4bb7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/models/Photo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/routes/photos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/views/error.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/views/index.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/views/photos.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/app2/views/photos/upload.ejs" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/test/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/config/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/lib/mongo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/middlewares/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/models/comments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/models/posts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/models/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/public/img/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/comments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/posts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/signin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/signout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/routes/signup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/test/signup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/404.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/components/comments.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/components/nav-setting.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/components/nav.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/components/notification.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/components/post-content.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/create.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/edit.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/footer.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/header.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/post.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/posts.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/signin.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/N-blog-master/views/signup.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9/myblog/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodejs in action-v1.iws" />
@@ -36,21 +62,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mgoose.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5/mongooseStore/mgoose.js">
+      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch9/N-blog-master/config/default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch8/photo-app/bin/www">
+      <file leaf-file-name="mg.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch5/mongodb4/mg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10204082">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mgoose.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch5/mongooseStore/mgoose.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -73,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ch4/表单5/form2.js" />
-        <option value="$PROJECT_DIR$/ch4/https6/https.js" />
         <option value="$PROJECT_DIR$/ch5/内存存储1.js" />
         <option value="$PROJECT_DIR$/ch5/文件存储.js" />
         <option value="$PROJECT_DIR$/ch5/README.md" />
@@ -124,6 +158,8 @@
         <option value="$PROJECT_DIR$/ch8/app2/app.js" />
         <option value="$PROJECT_DIR$/ch8/app2/routes/photos.js" />
         <option value="$USER_HOME$/Desktop/photo_app/package.json" />
+        <option value="$PROJECT_DIR$/ch9/myblog/routes/index.js" />
+        <option value="$PROJECT_DIR$/ch9/N-blog-master/README.md" />
       </list>
     </option>
   </component>
@@ -133,10 +169,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="981" />
+    <option name="y" value="153" />
     <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -193,7 +229,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch8" />
+              <option name="myItemId" value="ch9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="N-blog-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="N-blog-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mongooseStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs in action-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mongodb4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,11 +356,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\notes\node\nodejs in action-v1\ch9" />
       <recent name="F:\notes\node\nodejs in action-v1\ch8" />
       <recent name="F:\notes\node\nodejs in action-v1\ch8\app2\views\photos" />
       <recent name="F:\notes\node\nodejs in action-v1\ch7" />
       <recent name="F:\notes\node\nodejs in action-v1\ch7\public" />
-      <recent name="F:\notes\node\nodejs in action-v1\ch6connect" />
     </key>
   </component>
   <component name="RunManager">
@@ -283,10 +427,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="981" y="153" width="1938" height="683" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14097148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14097148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,10 +753,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch8/photo-app/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20467836">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/myblog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/N-blog-master/lib/mongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/myblog/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/N-blog-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/N-blog-master/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2156863">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/N-blog-master/config/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch5/mongooseStore/mgoose.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/mongodb4/mg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10204082">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
